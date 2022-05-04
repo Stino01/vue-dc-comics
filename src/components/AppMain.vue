@@ -14,7 +14,6 @@ export default {
 
 <style lang="scss">
   @import "../style/variables.scss";
-  @import "../style/generals.scss";
 
   main {
     background-color: $bg-black;

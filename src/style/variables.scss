@@ -2,3 +2,13 @@ $bg-black: #1C1C1C;
 $bg-grey: #303030;
 $bg-blue: #0282F9;
 $bg-icons: #797979;
+
+@mixin my-container {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+@mixin my-flex {
+    display: flex;
+    flex-flow: row nowrap;
+}

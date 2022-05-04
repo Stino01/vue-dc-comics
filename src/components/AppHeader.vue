@@ -73,7 +73,6 @@ export default {
 
 <style lang="scss">
   @import "../style/variables.scss";
-  @import "../style/generals.scss";
 
   header {
     @include my-container;
