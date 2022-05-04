@@ -76,7 +76,7 @@ export default {
 
   header {
     @include my-container;
-    display: flex;
+    @include my-flex;
     justify-content: space-between;
     padding: 1em 0;
     
@@ -87,7 +87,7 @@ export default {
     nav ul {
       height: 100%;
       list-style-type: none;
-      display: flex;
+      @include my-flex;
       align-items: center;
 
       li {
