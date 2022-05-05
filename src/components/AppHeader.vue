@@ -7,6 +7,7 @@
           </ul>
         </nav>
     </header>
+    
 </template>
 
 <script>
